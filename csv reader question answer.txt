@@ -1,0 +1,21 @@
+
+
+Question 1: How will you tackle the challenge above?
+Answer:
+I will first parse the input CSV to identify the rows and their values. Then, I will check if the value is a direct number or a formula. If it's a formula, I'll implement logic to evaluate the expression, update the CSV with the result, and continue processing.
+
+
+Question 2: What types of errors would you check for?
+Answer:
+Invalid formulas (e.g., =A1+B3 where A1 or B3 is missing).
+Invalid cell references (e.g., non-existent cells).
+Non-numeric values in cells where numbers are expected.
+Syntax errors in formulas.
+Circular references in formulas (e.g., A1 = B2 and B2 = A1).
+
+
+Question 3: How might a user break your code?
+Answer:
+Inputting invalid formulas, such as formulas that reference non-existent cells or incorrectly formatted expressions.
+Leaving required values (e.g., numeric values) empty or undefined.
+Creating circular dependencies in formulas where cells reference each other in a loop.
