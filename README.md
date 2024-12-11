@@ -21,7 +21,6 @@ The Product Application API provides endpoints to interact with product data, su
 - **Spring Boot**: Framework for building the API.  
 - **Lombok**: Reduces boilerplate code for models and services.  
 - **Validation**: Ensures input data integrity.  
-- **JUnit**: For testing the API.  
 
 ---
 
